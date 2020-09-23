@@ -1,0 +1,40 @@
+!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Carbon Footprint</title>
+    <!-- <script src="js/p5.play.js"></script> -->
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.21.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.21.0/firebase-database.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyAhInG8j1zxjXMLglVeHzgx0HYB-u4am0Q",
+    authDomain: "carbon-footprints-5c743.firebaseapp.com",
+    databaseURL: "https://carbon-footprints-5c743.firebaseio.com",
+    projectId: "carbon-footprints-5c743",
+    storageBucket: "carbon-footprints-5c743.appspot.com",
+    messagingSenderId: "572627667190",
+    appId: "1:572627667190:web:7b49ff5178bb8fc06504d7"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+    
+    <script src="form.js"></script>
+</head>
+
+<body>
+    <div id="canvascontainer">
+        <script src="sketch.js"></script>
+    </div>
+</body>
+
+</html>
